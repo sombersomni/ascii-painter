@@ -1,0 +1,22 @@
+{
+  "name": "ascii-painter",
+  "version": "1.0.0",
+  "description": "simple app that takes photos and spits out ascii artwork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somberSomni/ascii-painter.git"
+  },
+  "keywords": [
+    "ascii"
+  ],
+  "author": "somberSomni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somberSomni/ascii-painter/issues"
+  },
+  "homepage": "https://github.com/somberSomni/ascii-painter#readme"
+}
