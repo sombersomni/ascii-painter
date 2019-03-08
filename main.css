@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    background: #222222;
+  }
+  input {
+    position: absolute;
+    color: white;
+    top: 20px;
+  }
+  canvas {
+    display: none;
+    z-index: 0;
+  }
+  #imageHolder {
+    border: 5px solid white;
+    background: grey;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    
+  }
+  #imageHolder img {
+    position: relative;
+    z-index: 1;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #message {
+    opacity: 0;
+    text-align: left;
+    transform: translateX(-10px);
+    width: 200px;
+    z-index: 10;
+    color: white;
+  }
+  i {
+  }
+  #message p {
+    color: #222;
+    font-weight: bold;
+    opacity: 1;
+    z-index: 4;
+  }
+  #ascii {
+    border: 5px solid #666;
+    text-algin: center;
+    width: auto;
+    height: auto;
+    fontSize: 2px;
+    background: #FFF;
+  }
